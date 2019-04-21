@@ -97,7 +97,7 @@ PlayState.preload = function(){
     this.game.load.spritesheet('hero', 'images/hero.png', 36, 42);
 
     //Sounds
-    this.game.load.audio('sfx:jump', 'audio/jump.wav');
+    this.game.load.audio('sfx:jump', 'audio/jump2.wav');
 }
 
 // Create entities and world setup
