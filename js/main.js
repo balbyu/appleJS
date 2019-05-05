@@ -18,7 +18,7 @@ function hero(game, x, y) {
     this.animations.add('stop', [0]);
     this.animations.add('run', [1, 2], 8, true); // 8fps looped
     this.animations.add('jump', [3]);
-    this.animations.add('fall', [4]);
+    this.animations.add('fall', [3]);
 }
 
 // Inherit from Phaser.Sprite
@@ -146,7 +146,7 @@ PlayState.preload = function(){
     this.game.load.image('grass:2x1', 'images/grass_2x1.png');
     this.game.load.image('grass:1x1', 'images/grass_1x1.png');
     this.game.load.image('invisible-wall', 'images/invisible_wall.png');
-    this.game.load.spritesheet('hero', 'images/hero.png', 36, 42);
+    this.game.load.spritesheet('hero', 'images/resize.png', 39, 50);
     this.game.load.spritesheet('spider', 'images/spider.png', 42, 32);
     this.game.load.spritesheet('coin', 'images/coin_animated.png', 22, 22);
 
